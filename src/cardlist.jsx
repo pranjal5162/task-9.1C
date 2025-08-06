@@ -3,8 +3,10 @@ import Card from "./cards.jsx";
 import './cardlist.css'
 function CardList()
 {
-    return <div className='row'>
-        {/* now we need to pass the arguments of Card here */}
+    return <div className='Maindiv'>
+        <div className="row">
+
+        
         <Card
             avatar={List[0].avatar}
             articleName={List[0].articleName}
@@ -23,7 +25,15 @@ function CardList()
             role= {List[2].role}
             name= {List[2].name}
         />
-        {/* <h3>See all articles</h3> */}
+        </div>
+        <div className="heading">
+
+        <h3>See all articles</h3>
+        </div>
+        <div className="row">
+
+
+        
         <Card
             avatar={List[3].avatar}
             articleName={List[3].articleName}
@@ -42,6 +52,7 @@ function CardList()
             role= {List[5].role}
             name= {List[5].name}
         />
+        </div>
     </div>
 }
 

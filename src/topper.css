@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.search-icon {
+  padding: 0 10px;
+  color: #999;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  color: black;
+  width: 200px;
+  font-size: 1.5em;
+}
+
+.nav-item {
+  cursor: pointer;
+}
